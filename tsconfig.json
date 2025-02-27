@@ -23,7 +23,15 @@
         "noUncheckedSideEffectImports": true,
         "strictPropertyInitialization": false,
         /* Paths */
-        "paths": {}
+        "paths": {
+            "@cl/*": ["./modules/cl/source/*"],
+            "@engine/*": ["./modules/engine/source/*"],
+            "@examples/*": ["./modules/examples/source/*"],
+            "@gui/*": ["./modules/gui/source/*"],
+            "@panel_templater/*": ["./modules/panel_templater/source/*"],
+            "@square/*": ["./modules/square/source/*"],
+            "@turmite/*": ["./modules/turmite/source/*"]
+        }
     },
     "include": [
         "src"
